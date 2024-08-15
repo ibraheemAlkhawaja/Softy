@@ -1,0 +1,696 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 90%;
+    height: 65px;
+}
+.nav-link{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.nav-link:hover{
+    color: #e83e8c;
+}
+.hero{
+    background-image: url(../imges/banner-bg.png);
+    background-position: center bottom;
+    height: 110vh;
+}
+.hero .row.one{
+    height: 50%;
+}
+.hero .row.two{
+    height: 50%;
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.hero-text{
+    width: 500px;
+    text-align: center;
+}
+.hero-text h2 span{
+    font-size: 40px;
+}
+.hero-text p{
+    margin-top: 30px;
+}
+.btn{
+    border-radius: 30px;
+    width: 150px;
+    background-color: #e83e8c;
+    border: none;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #6f42c1;
+}
+.cards{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 15px 1px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.card p{
+    color: rgba(0, 0, 0, 0.568);
+    margin: 0px 15px;
+}
+.card img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #6f42c1;
+}
+.card img:hover{
+    background-color: #e83e8c;
+}
+
+.about{
+    height: 70vh;
+}
+.about .row{
+    height: 100%;
+}
+.about-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-text{
+    width: 500px;
+}
+.about-text p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.about-two{
+    height: 70vh;
+}
+.about-two .row{
+    height: 100%;
+}
+.Work-Process{
+    height: 80vh;
+    background-image: url(../imges/work-process-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.Work-Process .row.one{
+    height: 25%;
+}
+.Work-Process .row.two{
+    height: 75%;
+}
+.Work-Process-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Work-Process-text{
+    width: 450px;
+    text-align: center;
+    margin-top: 40px;
+}
+.card-work-process{
+    width: 150px;
+    height: 180px;
+    border-radius: 25px;
+    box-shadow:0px 0px 8px 4px rgba(255, 255, 255, 0.678);
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .6s;
+}
+.card-work-process:hover{
+    transform: translateY(-12px);
+}
+.card-work-process h6{
+    margin: 20px 0px;
+}
+.card-work-process p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.568) ;
+}
+.tes{
+    height: 80vh;
+}
+.tes .row.one{
+    height: 25%;
+}
+.tes .row.two{
+    height: 75%;
+}
+.tes-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tes-text{
+    width: 450px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.tes-text p{
+    color: rgba(0, 0, 0, 0.568) ;
+}
+.card-tes{
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 5px 4px 8px 4px rgba(0, 0, 0, 0.322);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-tes p{
+    color:  rgba(0, 0, 0, 0.568);
+    padding: 0px 20px;
+}
+.card-tes p span{
+    color:  #e83e8c;
+}
+.card-tes p:nth-of-type(2){
+    color: black;
+    transition-duration: .6s;
+    font-weight: bold;
+}
+.card-tes p:nth-of-type(2):hover{
+    transform: translateX(15px);
+}
+.pricing{
+    background-color: #f2f2fe;
+    height: 110vh;
+}
+.pricing .row.one{
+    height: 20%;
+}
+.pricing .row.two{
+    height: 80%;
+}
+.pricing-content{
+    margin: 20px 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-text{
+    width: 500px;
+    text-align: center;
+}
+.pricing-text p{
+    color: rgba(0, 0, 0, 0.568);
+}
+.card-pricing{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 5px 4px 8px 4px rgba(0, 0, 0, 0.322);
+}
+.card-pricing p{
+    color: rgba(0, 0, 0, 0.568);
+}
+.card-pricing p:nth-child(1){
+    font-size: 24px;
+    color: black;
+}
+.card-pricing p:nth-child(2){
+   background-color: #6f42c1;
+   display: inline-block;
+   width: 250px;
+   border-radius: 20px;
+   text-align: center;
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+}
+.col-md-4:nth-of-type(2) .card-pricing p:nth-child(2){
+    background-color: #e83e8c;
+}
+.col-md-4:nth-of-type(1) .card-pricing p:nth-child(6){
+    text-decoration: line-through;
+}
+.col-md-4:nth-of-type(1) .card-pricing p:nth-child(7){
+    text-decoration: line-through;
+}
+.col-md-4:nth-of-type(1) .card-pricing p:nth-child(8){
+    text-decoration: line-through;
+}
+.col-md-4:nth-of-type(2) .card-pricing p:nth-child(7){
+    text-decoration: line-through;
+}
+.col-md-4:nth-of-type(2) .card-pricing p:nth-child(8){
+    text-decoration: line-through;
+}
+.card-pricing .btn{
+    background-color: #6f42c1;
+}
+.card-pricing .btn:hover{
+    background-color: #e83e8c;
+}
+.purple{
+    background-image: url(../imges/fun-facts-bg.png);
+    height: 40vh;
+    background-position: center;
+}
+.purple .row{
+    height: 100%;
+}
+.purple-content{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.purple-content div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.purple-content p{
+    transition-duration: .6s;
+}
+.purple-content p:nth-child(1):hover{
+    transform: translatey(-15px);
+}
+.purple-content p:nth-child(2):hover{
+    transform: translatey(-15px);
+}
+.purple-content p:nth-child(3):hover{
+    transform: translatey(-15px);
+}
+.purple-content p:nth-child(4):hover{
+    transform: translatey(-15px);
+}
+.purple-content span{
+    font-size: 18px;
+}
+.blog{
+    height: 100vh;
+}
+.blog .row.one{
+    height: 20%;
+}
+.blog .row.two{
+    height: 80%;
+}
+.blog-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.blog-text{
+    width: 500px;
+    text-align: center;
+}
+.blog-text p{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.card-blog{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-blog img{
+    width: 100%;
+    height: 200px;
+}
+.card-blog p:nth-last-child(2){
+    color: rgba(0, 0, 0, 0.568);
+}
+.card-blog p:nth-child(2):hover{
+    color: #e83e8c;
+    cursor: default;
+}
+.card-blog .btn{
+    background-color: #6f42c1;
+}
+.card-blog .btn:hover{
+    background-color: #e83e8c;
+}
+.contact{
+    background-color: #f2f2fe;
+    height: 100vh;
+}
+.contact.row.one{
+    height: 20%;
+}
+.contact.row.two{
+    height: 80%;
+}
+.contact-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+.contact-text{
+    width: 500px;
+    text-align: center;
+}
+.contact-text p{
+    color: rgba(0, 0, 0, 0.568);
+}
+.contact-text-left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px ;
+}
+.contact-text-left p{
+    color: rgba(0, 0, 0, 0.568);
+}
+.contact-inp{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-inp input{
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.contact-inp input:nth-last-child(2){
+    width: 100%;
+    height: 250px;
+}
+.contact-inp .btn{
+    background-color: #6f42c1 ;
+}
+.contact-inp .btn:hover{
+    background-color: #e83e8c ;
+}
+@media  all and (max-width:776px ){
+    .hero{
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+    .hero-content{
+        padding-top: 100px;
+        justify-content: center;
+    }
+    .hero-text{
+        width: 300px;
+    }
+    .cards{
+        align-items: flex-start;
+        margin: 25px 0px; 
+    }
+    .card{
+        width: 250px;
+        height: 220px;
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+    }
+    .about{
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .about .row{
+        height: 100%;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .about-content img{
+        width: 220px;
+        height: 200px;
+    }
+    .about-text{
+        width: 300px;
+        padding: 10px 0px;
+    }
+    .Work-Process{
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .card-work-process{
+        margin: 5px 0px;
+    }
+    .Work-Process-text{
+        width: 330px;
+        margin-top: 15px;
+    }
+    .tes{
+        height: 100%;
+    }
+    .tes-text{
+        width: 300px;
+    }
+    .card-tes{
+        margin: 10px 0px;
+        width: 300px;
+        justify-content: center;
+    }
+    .pricing{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .pricing .row.one{
+        height: 10%;
+    }
+    .pricing .row.two{
+        height: 90%;
+    }
+    .pricing-text{
+        width: 300px;
+    }
+    .card-pricing{
+        width: 300px;
+        height: 450px;
+    }
+    .purple{
+        height: 30vh;
+        margin: 20px 0px;
+    }
+    .purple-content{
+        font-size: 20px;
+    }
+    .purple-content img{
+        width: 30px;
+    }
+    .purple-content span{
+        font-size: 15px;
+    }
+    .blog{
+        height: 100%;
+    }
+    .blog .row.one{
+        height: 10%;
+    }
+    .blog .row.two{
+        height: 90%;
+    }
+    .blog-content{
+        margin: 20px 0px;
+    }
+    .blog-text{
+        width: 300px;
+    }
+    .card-blog{
+        width: 300px;
+    }
+    .contact{
+        height: 100%;
+        padding: 40px 0px;
+    }
+    .contact-text{
+        width: 300px;
+    }
+    .contact-text-left{
+        padding-left: 10px ;
+    }
+    .contact-inp{
+        width: 350px;
+        height: 100%;
+    }
+    .contact-inp input:nth-last-child(2){
+        width: 100%;
+        height: 200px;
+    }
+    .contact-inp input{
+        width: 280px;
+    }
+}
+@media (min-width : 768px)and (max-width :1024px){
+    .hero{
+        height: 100%;
+        padding-top: 150px;
+    }
+    .hero-text{
+        max-width: 500px;
+    }
+    .cards{
+        padding-top: 50px;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 250px;
+        height: 280px;
+    }
+    .about{
+        height: 100%;
+        margin-top: 50px;
+    }
+    .about-content img{
+        width: 250px;
+        height: 250px;
+    }
+    .about-text{
+        max-width: 400px;
+    }
+    .about-two{
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    .Work-Process{
+        margin-top: 25px;
+        height: 100%;
+    }
+    .Work-Process-content{
+        margin-bottom: 35px;
+    }
+    .Work-Process-text{
+        max-width: 400px;
+    }
+    .card-work-process{
+        width: 130px;
+        height: 160px;
+        box-shadow:0px 0px 5px 2px rgba(255, 255, 255, 0.678);
+        flex-wrap: wrap;
+    }
+
+    .tes{
+        height: 100%;
+        margin: 30px 0px;
+    }
+    .tes-text{
+        max-width: 400px;
+    }
+    .card-tes{
+        width: 270px;
+        height: 250px;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.322);
+    }
+    .pricing{
+        margin: 30px 0px;
+        height: 100%;
+    }
+
+    .pricing-text{
+        max-width: 400px;
+    }
+
+    .card-pricing{
+        width: 270px;
+        height: 450px;
+        flex-wrap: wrap;
+    }
+    .purple{
+        padding: 50px 0px;
+        height: 100%;
+    }
+
+    .purple-content{
+        font-size: 25px;
+    }
+
+    .blog{
+        height: 100%;
+        margin: 40px 0px;
+    }
+    .blog-text{
+        max-width: 400px;
+    }
+    .card-blog{
+        width: 270px;
+    }
+    .contact{
+        height: 100%;
+        padding: 30px 0px;
+    }
+    .contact-text{
+        max-width: 400px;
+        text-align: center;
+    }
+    .contact-text-left{
+        justify-content: space-evenly;
+        padding-left: 10px ;
+    }
+    .contact-inp{
+        width: 560px;
+        height: 400px;
+    }
+    .contact-inp input{
+        width: 250px;
+    }
+    .contact-inp input:nth-last-child(2){
+        height: 200px;
+    }
+}
